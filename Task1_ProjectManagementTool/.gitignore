@@ -1,0 +1,5 @@
+sprintly-frontend/node_modules
+sprintly-backend/node_modules
+sprintly-backend/.env
+sprintly-frontend/build
+sprintly-frontend/.git
