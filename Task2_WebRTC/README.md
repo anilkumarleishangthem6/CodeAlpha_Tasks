@@ -1,25 +1,25 @@
-# ⚡ SyncRoom — Real-Time Communication App
+# SyncRoom — Real-Time Communication App
 ### CodeAlpha Internship — Task 4
 
 A full-stack video conferencing and collaboration platform built with WebRTC, Socket.io, and React.
 
 ---
 
-## 🚀 Features
+## Features
 
 | Feature | Technology |
 |---|---|
-| 🎥 Multi-user video calling | WebRTC (peer-to-peer) |
-| 🖥️ Screen sharing | `getDisplayMedia` API |
-| 📎 File sharing | Socket.io (base64 transfer) |
-| ✏️ Collaborative whiteboard | HTML5 Canvas + Socket.io |
-| 💬 Real-time chat | Socket.io |
-| 🔐 User authentication | JWT + bcrypt |
-| 🔒 Data encryption | HTTPS + JWT tokens |
+| Multi-user video calling | WebRTC (peer-to-peer) |
+| Screen sharing | `getDisplayMedia` API |
+| File sharing | Socket.io (base64 transfer) |
+| Collaborative whiteboard | HTML5 Canvas + Socket.io |
+| Real-time chat | Socket.io |
+| User authentication | JWT + bcrypt |
+| Data encryption | HTTPS + JWT tokens |
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 syncroom/
@@ -58,7 +58,7 @@ syncroom/
 
 ---
 
-## ⚙️ Setup & Run
+## Setup & Run
 
 ### Prerequisites
 - Node.js v16+
@@ -85,7 +85,7 @@ This starts:
 
 ---
 
-## 🔑 Demo Credentials
+## Demo Credentials
 
 | Username | Password |
 |---|---|
@@ -96,7 +96,7 @@ Or register a new account directly in the app.
 
 ---
 
-## 🏗️ How It Works
+## How It Works
 
 ### Authentication Flow
 1. User registers/logs in → server returns **JWT token**
@@ -126,7 +126,7 @@ Or register a new account directly in the app.
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 - **JWT Authentication** — all routes and socket connections protected
 - **bcrypt password hashing** — 12 salt rounds
 - **CORS configuration** — restricted to client origin
@@ -135,7 +135,7 @@ Or register a new account directly in the app.
 
 ---
 
-## 📚 Technologies Used
+## Technologies Used
 
 **Frontend:**
 - React 18, Context API, Custom Hooks
@@ -151,4 +151,3 @@ Or register a new account directly in the app.
 
 ---
 
-*Built for CodeAlpha Internship Program — Task 4: Real-Time Communication App*
